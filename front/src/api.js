@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const serverUrl = "http://" + window.location.hostname + "/";
+const serverUrl = "https://" + window.location.hostname + "/";
 
 // credential 인증 추가
 axios.defaults.withCredentials = true;
